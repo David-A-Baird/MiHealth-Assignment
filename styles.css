@@ -1,0 +1,30 @@
+h1
+{
+    color:black;
+    font-family:arial;
+}
+span
+{
+    font-family:arial;
+    font-weight:bold;
+    font-size:11px;
+}
+#nav
+{
+    background-color:#d5d5d5;
+    height:80%;
+    width:100%;
+}
+blockquote
+{
+    margin-top:40px;
+    width:20%;
+}
+a
+{
+    color:#333;
+}
+p
+{
+    font-family:arial;
+}

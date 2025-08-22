@@ -1,30 +1,72 @@
 h1
 {
-    color:black;
-    font-family:arial;
+    color: black;
+    font-family: arial;
+    font-weight: bolder;
 }
 span
 {
-    font-family:arial;
-    font-weight:bold;
-    font-size:11px;
+    font-family: arial;
 }
-#nav
+.Mi
 {
-    background-color:#d5d5d5;
-    height:80%;
-    width:100%;
+    color: #ff0000;
+    font-size: 30px;
+    font-family: impact;
+    margin-left: 20px;
 }
-blockquote
+.health
 {
-    margin-top:40px;
-    width:20%;
+    color: #3af83f;
+    font-size: 30px;
+    position: relative;
+    right: 5px;
+    font-family: impact;
+}
+.nav
+{
+    background-color: #d5d5d5;
+    height: 80%;
+    width: 100%;
+}
+.information
+{
+    margin-top: 40px;
+    width: 20%;
 }
 a
 {
-    color:#333;
+    color: #333;
+    font-family: arial;
+    display:block;
 }
-p
+p1
 {
-    font-family:arial;
+    font-family: arial;
+}
+.menu
+{
+    position: fixed;
+    text-align: right;
+    right: 20px;
+    margin-right:20px;
+    word-spacing: 30px;
+}
+.headermenu
+{
+    width: 100%;
+    justify-items:center;
+}
+.images
+{
+    margin-top: 40px;
+    width: 80%;
+    position: fixed;
+    left: 20%;
+}
+.food
+{
+    width: 200px;
+    position: fixed;
+    left: 25%;
 }

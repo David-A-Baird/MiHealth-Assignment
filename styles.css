@@ -38,7 +38,7 @@ a
 {
     color: #333;
     font-family: arial;
-    display:block;
+    display: block;
 }
 p1
 {
@@ -69,4 +69,9 @@ p1
     width: 200px;
     position: fixed;
     left: 25%;
+}
+.container
+{
+    display: flex;
+    justify-content: flex-end;
 }

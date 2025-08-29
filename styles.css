@@ -1,77 +1,42 @@
-h1
-{
-    color: black;
-    font-family: arial;
-    font-weight: bolder;
+header {
+  font-family: Arial;
+  background-color: #ffffff;
 }
-span
-{
-    font-family: arial;
+header .Mi {
+  font-size: 50px;
+  color: #cf330c;
 }
-.Mi
-{
-    color: #ff0000;
-    font-size: 30px;
-    font-family: impact;
-    margin-left: 20px;
+header .health {
+  font-size: 50px;
+  color: #10c01e;
+  margin-left: -10px;
 }
-.health
-{
-    color: #3af83f;
-    font-size: 30px;
-    position: relative;
-    right: 5px;
-    font-family: impact;
+header .menu {
+  display: flex;
+  font-size: 16px;
+  color: #000000;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  justify-content: space-between;
 }
-.nav
-{
-    background-color: #d5d5d5;
-    height: 80%;
-    width: 100%;
+
+body {
+  background-color: #dbdbdb;
+  margin: 0px;
 }
-.information
-{
-    margin-top: 40px;
-    width: 23%;
+body h1 {
+  color: #ccaadd;
 }
-a
-{
-    color: #333;
-    font-family: arial;
-    display: block;
+body .container {
+  display: flex;
+  justify-content: flex-start;
+  width: 23%;
 }
-p1
-{
-    font-family: arial;
+body .container .nav {
+  display: flex;
+  justify-content: space-evenly;
 }
-.menu
-{
-    position: fixed;
-    text-align: right;
-    right: 20px;
-    margin-right:20px;
-    word-spacing: 30px;
-}
-.headermenu
-{
-    width: 100%;
-    justify-items:center;
-}
-.images
-{
-    margin-top: 40px;
-    width: 80%;
-    position: fixed;
-    left: 20%;
-}
-.container
-{
-    display: flex;
-    justify-content: flex-end;
-    align-content: space-evenly;
-    align-items: stretch;
-}
-.food
-{
-    width: 185px;
-}
+body .container img {
+  width: 225px;
+}/*# sourceMappingURL=styles.css.map */

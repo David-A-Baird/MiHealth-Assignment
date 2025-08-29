@@ -1,0 +1,51 @@
+$primary-color: #dbdbdb;
+$secondary-color: #ccaadd;
+$tertiary-color: #cf330c;
+$quaternary-color: #10c01e;
+$quinary-color: #000000;
+
+header {
+    font-family: Arial;
+    background-color: #ffffff;
+
+    .Mi {
+        font-size: 50px;
+        color: $tertiary-color;
+    }
+    .health {
+        font-size: 50px;
+        color: $quaternary-color;
+        margin-left: -10px;
+    }
+    .menu {
+        display: flex;
+        font-size: 16px;
+        color: $quinary-color;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        justify-content: space-between;
+        
+    }
+}
+body {
+    background-color: $primary-color;
+    margin: 0px;
+
+    h1 {
+        color: $secondary-color;
+    }
+    .container {
+        display: flex;
+        justify-content: flex-start;
+        width: 23%;
+        .nav {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        img {
+            width: 225px;
+        }
+    }
+}

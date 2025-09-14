@@ -24,9 +24,10 @@ header .menu {
 body {
   background-color: #dbdbdb;
   margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 body h1 {
-  color: #ccaadd;
+  color: #000000;
 }
 body .container {
   display: flex;
@@ -37,6 +38,28 @@ body .container .nav {
   display: flex;
   justify-content: space-evenly;
 }
+body .container .image-block {
+  display: flex;
+  justify-content: flex-end;
+}
+body .container #back {
+  width: 225px;
+  background-image: url("apple-breakfast-quinoa-7.jpg");
+  background-size: cover;
+  background-position: center;
+}
 body .container img {
   width: 225px;
+}
+body .container .food {
+  background-color: #10c01e;
+  margin-top: -21px;
+}
+body .container .descriptor {
+  background-color: #ffffff;
+  margin-top: -37px;
+}
+body .container blockquote div div {
+  display: flex;
+  justify-content: flex-start;
 }/*# sourceMappingURL=styles.css.map */

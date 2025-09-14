@@ -3,10 +3,11 @@ $secondary-color: #ccaadd;
 $tertiary-color: #cf330c;
 $quaternary-color: #10c01e;
 $quinary-color: #000000;
+$senary-color: #ffffff;
 
 header {
     font-family: Arial;
-    background-color: #ffffff;
+    background-color: $senary-color;
 
     .Mi {
         font-size: 50px;
@@ -31,9 +32,10 @@ header {
 body {
     background-color: $primary-color;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 
     h1 {
-        color: $secondary-color;
+        color: $quinary-color;
     }
     .container {
         display: flex;
@@ -44,8 +46,52 @@ body {
             justify-content: space-evenly;
         }
 
+        .image-block {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        #breakfastBack {
+            width: 225px;
+            background-image: url("apple-breakfast-quinoa-7.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        #lunch-back {
+            width: 225px;
+            background-image: url("pasta-salad-recipe-for-lunch.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        #dinner-back {
+            width: 225px;
+            background-image: url("dinner-food-item.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
         img {
             width: 225px;
+        }
+        .food {
+            background-color: $quaternary-color;
+            margin-top: -21px;
+        }
+        .descriptor {
+            background-color: $senary-color;
+            margin-top: -37px;
+        }
+        blockquote {
+            
+        div {
+
+            div {
+                    display: flex;
+                    justify-content: flex-start
+                }
+            }
         }
     }
 }
